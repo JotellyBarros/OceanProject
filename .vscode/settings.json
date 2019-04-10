@@ -1,0 +1,10 @@
+{
+	"files.exclude": {
+		"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/.git": true,
+		"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/.vscode": true,
+		"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/Content": true,
+		"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/Intermediate": true,
+		"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/Saved": true,
+		"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/ShaderFilesToCopy": true
+	}
+}

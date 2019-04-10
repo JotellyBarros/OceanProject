@@ -1,0 +1,106 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "OceanProject (Debug)",
+			"request": "launch",
+			"preLaunchTask": "OceanProject Linux Debug Build",
+			"program": "/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/Binaries/Linux/OceanProject-Linux-Debug",
+			"args": [
+			],
+			"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "OceanProject (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "OceanProject Linux DebugGame Build",
+			"program": "/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/Binaries/Linux/OceanProject-Linux-DebugGame",
+			"args": [
+			],
+			"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "OceanProject (Development)",
+			"request": "launch",
+			"preLaunchTask": "OceanProject Linux Development Build",
+			"program": "/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/Binaries/Linux/OceanProject",
+			"args": [
+			],
+			"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "OceanProject (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "OceanProject Linux Shipping Build",
+			"program": "/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/Binaries/Linux/OceanProject-Linux-Shipping",
+			"args": [
+			],
+			"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "OceanProject (Test)",
+			"request": "launch",
+			"preLaunchTask": "OceanProject Linux Test Build",
+			"program": "/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/Binaries/Linux/OceanProject-Linux-Test",
+			"args": [
+			],
+			"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "OceanProjectEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "OceanProjectEditor Linux Debug Build",
+			"program": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine/Engine/Binaries/Linux/UE4Editor-Linux-Debug",
+			"args": [
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-debug"
+			],
+			"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "OceanProjectEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "OceanProjectEditor Linux DebugGame Build",
+			"program": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-debug"
+			],
+			"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "OceanProjectEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "OceanProjectEditor Linux Development Build",
+			"program": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject"
+			],
+			"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+		}
+	]
+}

@@ -1,0 +1,1710 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "OceanProject Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"Mac",
+				"Debug",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"Mac",
+				"Debug",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OceanProject Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"Mac",
+				"Debug",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"Mac",
+				"DebugGame",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"Mac",
+				"DebugGame",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OceanProject Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"Mac",
+				"DebugGame",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"Mac",
+				"Development",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"Mac",
+				"Development",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OceanProject Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"Mac",
+				"Development",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"Mac",
+				"Shipping",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"Mac",
+				"Shipping",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OceanProject Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"Mac",
+				"Shipping",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"Mac",
+				"Test",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"Mac",
+				"Test",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OceanProject Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"Mac",
+				"Test",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"IOS",
+				"Debug",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"IOS",
+				"Debug",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OceanProject IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"IOS",
+				"Debug",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"IOS",
+				"DebugGame",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"IOS",
+				"DebugGame",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OceanProject IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"IOS",
+				"DebugGame",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"IOS",
+				"Development",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"IOS",
+				"Development",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OceanProject IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"IOS",
+				"Development",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"IOS",
+				"Shipping",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"IOS",
+				"Shipping",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OceanProject IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"IOS",
+				"Shipping",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"IOS",
+				"Test",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"IOS",
+				"Test",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OceanProject IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"IOS",
+				"Test",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"HTML5",
+				"Debug",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject HTML5 Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"HTML5",
+				"Debug",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OceanProject HTML5 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"HTML5",
+				"Debug",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"HTML5",
+				"DebugGame",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject HTML5 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"HTML5",
+				"DebugGame",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OceanProject HTML5 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"HTML5",
+				"DebugGame",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject HTML5 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"HTML5",
+				"Development",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject HTML5 Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"HTML5",
+				"Development",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OceanProject HTML5 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"HTML5",
+				"Development",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"HTML5",
+				"Shipping",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject HTML5 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"HTML5",
+				"Shipping",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OceanProject HTML5 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"HTML5",
+				"Shipping",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject HTML5 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"HTML5",
+				"Test",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject HTML5 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"HTML5",
+				"Test",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OceanProject HTML5 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"HTML5",
+				"Test",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"Linux",
+				"Debug",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"Linux",
+				"Debug",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OceanProject Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"Linux",
+				"Debug",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"Linux",
+				"DebugGame",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"Linux",
+				"DebugGame",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OceanProject Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"Linux",
+				"DebugGame",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"Linux",
+				"Development",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"Linux",
+				"Development",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OceanProject Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"Linux",
+				"Development",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject Linux Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"Linux",
+				"Shipping",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"Linux",
+				"Shipping",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OceanProject Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"Linux",
+				"Shipping",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject Linux Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"Linux",
+				"Test",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"Linux",
+				"Test",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OceanProject Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject Linux Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"Linux",
+				"Test",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject TVOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"TVOS",
+				"Debug",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject TVOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"TVOS",
+				"Debug",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OceanProject TVOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject TVOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"TVOS",
+				"Debug",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject TVOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"TVOS",
+				"DebugGame",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject TVOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"TVOS",
+				"DebugGame",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OceanProject TVOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject TVOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"TVOS",
+				"DebugGame",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject TVOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"TVOS",
+				"Development",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject TVOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"TVOS",
+				"Development",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OceanProject TVOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject TVOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"TVOS",
+				"Development",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject TVOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"TVOS",
+				"Shipping",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject TVOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"TVOS",
+				"Shipping",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OceanProject TVOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject TVOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"TVOS",
+				"Shipping",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject TVOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"TVOS",
+				"Test",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject TVOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"TVOS",
+				"Test",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OceanProject TVOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProject TVOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProject",
+				"TVOS",
+				"Test",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProjectEditor Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProjectEditor",
+				"Linux",
+				"Debug",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProjectEditor Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProjectEditor",
+				"Linux",
+				"Debug",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OceanProjectEditor Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProjectEditor Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProjectEditor",
+				"Linux",
+				"Debug",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProjectEditor Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProjectEditor",
+				"Linux",
+				"DebugGame",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProjectEditor Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProjectEditor",
+				"Linux",
+				"DebugGame",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OceanProjectEditor Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProjectEditor Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProjectEditor",
+				"Linux",
+				"DebugGame",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProjectEditor Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProjectEditor",
+				"Linux",
+				"Development",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProjectEditor Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProjectEditor",
+				"Linux",
+				"Development",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OceanProjectEditor Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProjectEditor Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProjectEditor",
+				"Linux",
+				"Development",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProjectEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProjectEditor",
+				"Mac",
+				"Debug",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProjectEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProjectEditor",
+				"Mac",
+				"Debug",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OceanProjectEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProjectEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProjectEditor",
+				"Mac",
+				"Debug",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProjectEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProjectEditor",
+				"Mac",
+				"DebugGame",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProjectEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProjectEditor",
+				"Mac",
+				"DebugGame",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OceanProjectEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProjectEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProjectEditor",
+				"Mac",
+				"DebugGame",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProjectEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProjectEditor",
+				"Mac",
+				"Development",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProjectEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProjectEditor",
+				"Mac",
+				"Development",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"OceanProjectEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "OceanProjectEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"OceanProjectEditor",
+				"Mac",
+				"Development",
+				"/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine"
+			}
+		}
+	]
+}
