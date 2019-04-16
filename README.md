@@ -79,3 +79,15 @@ Vote for upcoming features on our [Trello](https://trello.com/b/7dzOdkvw/ue4-oce
 UE4 Forums thread with more info: [[Community Project] WIP Weather & Ocean Water Shader](https://forums.unrealengine.com/showthread.php?42092-Community-Project-WIP-Weather-amp-Ocean-Water-Shader)
 
 If you would like to contribute to this project, please PM me on the UE4 forums with your GitHub user name and contact info.
+
+
+===================================================================
+
+View image
+$ rosrun image_view image_view image:=/multsenses_s7
+
+To post camera
+$ roslaunch rosbridge_server rosbridge_tcp.launch bson_only_mode:=True
+
+Run Unreal Engine 4
+$ UE4Editor $(pwd)/src/OceanProject/OceanProject.uproject 

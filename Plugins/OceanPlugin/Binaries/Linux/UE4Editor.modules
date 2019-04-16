@@ -2,6 +2,6 @@
 	"BuildId": "647141a8-a524-48af-b0fb-b2993e92cbc7",
 	"Modules": 
 	{
-		"OceanPlugin": "libUE4Editor-OceanPlugin.so"
+		"OceanPlugin": "libUE4Editor-OceanPlugin-1051.so"
 	}
 }
