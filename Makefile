@@ -2,7 +2,7 @@
 # *DO NOT EDIT*
 
 UNREALROOTPATH = /home/jotellybarros/catkin_mccr_simulator/dev/src/UnrealEngine
-GAMEPROJECTFILE =/home/jotellybarros/catkin_ocean_orb_slam/OceanProject/OceanProject.uproject
+GAMEPROJECTFILE =/home/jotellybarros/catkin_mccr_simulator/dev/src/OceanProject/OceanProject.uproject
 
 TARGETS = \
 	UE4Client-Linux-Debug  \
